@@ -1,0 +1,38 @@
+{
+  "name": "schematiq",
+  "version": "0.0.1",
+  "description": "Generate forms via JSON schema with validation using Formik for state management ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "keywords": [
+    "schema",
+    "formik",
+    "yup",
+    "JSON",
+    "forms",
+    "react"
+  ],
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "author": "Tickle Software",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.35.0"
+  },
+  "dependencies": {
+    "formik": "^1.5.7",
+    "json-schema-to-yup": "^1.8.8",
+    "yup": "^0.27.0"
+  }
+}

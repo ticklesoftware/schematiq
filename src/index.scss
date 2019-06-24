@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: sans-serif;
+}
+.tickle__label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+.tickle__itemWrapper {
+  margin-bottom: 25px;
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+  }
+  input, select {
+    padding: .5rem;
+    font-size: 16px;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  input[type="checkbox"] {
+    padding: 0;
+    margin: 0;
+  }
+}
+.tickle__card {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tickle__error {
+  display: block;
+  margin-top: 10px;
+  color: #d4380d
+}
+
+.tickle__button {
+  margin: 20px 0;
+  display: block;
+  padding: 8px 16px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ccc;
+
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  &.tickle__remove {
+    background-color: #d4380d;
+  }
+  &.tickle__submit {
+    background-color: #007bff;    
+  }
+}
+
+.tickle__counter {
+  font-size: 0.7em;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
