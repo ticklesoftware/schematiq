@@ -1,6 +1,6 @@
 {
   "name": "schematiq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate forms via JSON schema with validation using Formik for state management ",
   "main": "index.js",
   "scripts": {
