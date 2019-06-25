@@ -1,11 +1,11 @@
 {
   "name": "schematiq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate forms via JSON schema with validation using Formik for state management ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-file index.js"
+    "build": "babel src --out-file index.js"
   },
   "keywords": [
     "schema",
@@ -34,5 +34,13 @@
     "formik": "^1.5.7",
     "json-schema-to-yup": "^1.8.8",
     "yup": "^0.27.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovidiu-balau/schematiq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ovidiu-balau/schematiq/issues"
+  },
+  "homepage": "https://github.com/ovidiu-balau/schematiq#readme"
 }
